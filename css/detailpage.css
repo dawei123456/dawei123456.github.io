@@ -1,0 +1,106 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-06 10:24:12
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-06 16:14:14
+*/
+.detail-banner{
+    width: 1583px;
+    height: 794px;
+    background: url("../images/cake_02.jpg");
+}
+.detail-cakemessage{
+    width: 1583px;
+    height: 3332px;
+    background: url("../images/cake_03.jpg");
+}
+i.box1,i.box2,i.box3,i.box4,i.box5{
+    top:-200px;
+    width: 400px;
+    opacity:0;
+    position: absolute; 
+    background:rgba(143, 59, 27, 0.3);
+    padding:10px 20px;
+}
+.detailf-1{
+    position: absolute;
+    right: 187px;
+    top: 1068px;
+}
+i.box1{
+    left: -260px;
+    border-radius: 40px 40px 0 40px;
+}
+.detailf-1 s:hover i.box1,.detailf-2 s:hover i.box2,.detailf-3 s:hover i.box3,.detailf-4 s:hover i.box4,.detailf-5 s:hover i.box5{
+    -webkit-transition: all 1s;
+       -moz-transition: all 1s;
+        -ms-transition: all 1s;
+         -o-transition: all 1s;
+            transition: all 1s;
+    opacity:1;
+}
+.detailf-2{
+    position: absolute;
+    left: 256px;
+    top: 1677px;
+}
+i.box2{
+    left: 120px;
+    border-radius: 40px 40px 40px 0;
+}
+.detailf-3{
+    position: absolute;
+    right: 167px;
+    top: 2286px;
+}
+i.box3{
+    left: -300px;
+    border-radius: 40px 40px 0 40px;
+}
+.detailf-4{
+    position: absolute;
+    left: 156px;
+    top: 2895px;
+}
+i.box4{
+    left: 220px;
+    border-radius: 40px 40px 40px 0;
+}
+.detailf-5{
+    position: absolute;
+    right: 177px;
+    top: 3604px;
+}
+i.box5{
+    left: -300px;
+    border-radius: 40px 40px 0 40px;
+}
+.detailf{
+    position: relative;
+    display:block;
+    width: 375px;
+    text-decoration: none;
+}
+i.detailf-f{
+    /*max-height: 90px;*/
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    display: -webkit-box; 
+    /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; 
+    /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 3; 
+    /** 显示的行数 **/
+    /*white-space: nowrap;适用于单行*/
+}
+.detailf .shoppingcart{
+    position: absolute;
+    top: 120px;
+    left: 126px;
+}
+.detailf .more{
+    position: absolute;
+    top: 120px;
+    left: 207px;
+}

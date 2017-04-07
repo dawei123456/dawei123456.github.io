@@ -1,0 +1,149 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-06 08:51:50
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-07 10:41:53
+*/
+
+        /*topbanner开始*/
+        .topbanner{
+            width: 1583px;
+            height: 794px;
+            font-size: 0;
+            position: relative;
+            background: url("../images/cake_01.jpg");
+        }
+        .seedetail{
+            width: 21px;
+            height: 75px;
+            background:#8f3b1b;
+            position: absolute;
+            top: 180px;
+            right: 478px;
+            text-align: center;
+            padding:9px;
+        }
+        .seedetail a{ 
+            color:#fff;
+            font:14px "微软雅黑";
+            text-decoration: none;
+        }
+        /*topbanner结束*/
+
+        /*menu开始*/
+        .menu{
+            height: 649px;
+        }
+        .menu-1,.menu-2,.menu-3,.menu-4,.menu-5,.menu-6,.menu-7,.menu-8{
+            float: left;
+            display: block;
+            width: 84px;
+            height: 101px;
+            margin:100px 38px;
+        }
+        .menu-1:hover,.menu-2:hover,.menu-3:hover,.menu-4:hover,.menu-5:hover,.menu-6:hover,.menu-7:hover,.menu-8:hover{
+            transform: scale(1.1);
+        }
+        .menu-1{
+            background:url("../images/menu.png") 0 0;
+        }
+        .menu-2{
+            background:url("../images/menu.png") -160px 0;
+        }
+        .menu-3{
+            background:url("../images/menu.png") -323px 0;
+        }
+        .menu-4{
+            background:url("../images/menu.png") -483px 0;
+        }
+        .menu-5{
+            background:url("../images/menu.png") -642px 0;
+        }
+        .menu-6{
+            background:url("../images/menu.png") -802px 0;
+        }
+        .menu-7{
+            background:url("../images/menu.png") -965px 0;
+        }
+        .menu-8{
+            background:url("../images/menu.png") -1125px 0;
+        }
+        .themesum{
+            width: 278px;
+            height: 241px;
+            float: left;
+            margin:0 20px;
+            border-radius: 20px;
+            line-height: 241px;
+            position: relative;
+            overflow:hidden;
+            z-index: 3;
+        }
+        .theme-1,.theme-2,.theme-3,.theme-4{
+            position: absolute;
+            border:1px solid #fff;
+            top:50%;
+            left:50%;
+            -webkit-transform: translate(-50%,-50%);
+               -moz-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                 -o-transform: translate(-50%,-50%);
+                    transform: translate(-50%,-50%);
+            border-radius: 20px;
+            width: 276px;
+            height: 239px;
+            transition:all .5s;
+        }
+        span.theme{
+            width: 278px;
+            height: 78px;
+            background:rgba(65,39,23, 0.8);
+            position: absolute;
+            top: 50%;
+            left: 0;
+            margin-top: -39px;
+            z-index: 8;
+            opacity:0;
+        }
+        span.theme i,span.theme s{
+            display:block;
+            width: 150px;
+            height:1px;
+            background:#fff;
+            position: absolute;
+        }
+        span.theme i{
+            top:5px;
+            left:0px;
+        }
+        span.theme s{
+            bottom:5px;
+            right:0px;
+        }
+        span.theme a{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -15px;
+            margin-left: -48px;
+            font:24px "微软雅黑";
+            color:#fff;
+            text-decoration: none;
+        }
+        p .theme-1:hover,.theme-2:hover,.theme-3:hover,.theme-4:hover{
+            -webkit-transform:translate(-50%,-50%) scale(1.2) ;
+               -moz-transform:translate(-50%,-50%) scale(1.2) ;
+                -ms-transform:translate(-50%,-50%) scale(1.2) ;
+                 -o-transform:translate(-50%,-50%) scale(1.2) ;
+                    transform:translate(-50%,-50%) scale(1.2) ;
+        }
+        .themesum:hover span.theme{
+            opacity:1;
+            -webkit-transition: all .5s;
+               -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                 -o-transition: all .5s;
+                    transition: all .5s;
+        }
+        /*menu结束*/
+
